@@ -34,7 +34,7 @@
     <!-- Text View to display result -->
 
 
-    <!-- A button to perform 'sum' operation -->
+
     <EditText
 
         android:id="@+id/edit_text_num1"
@@ -124,20 +124,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.015" />
 
-    <Button
-        android:id="@+id/refresh"
-        android:layout_width="92dp"
-        android:layout_height="48dp"
-        android:layout_marginBottom="199dp"
-        android:backgroundTint="@android:color/holo_red_light"
 
-        android:text="Reset"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.442"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.909" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
