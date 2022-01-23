@@ -44,15 +44,7 @@ public class MainActivity<requestCode> extends AppCompatActivity {
                 }
             }
         });
-        Button reset = findViewById(R.id.refresh);
-        reset.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                int number1 = Integer.parseInt( mEditText_number1.getText().toString());
-                int number2 = Integer.parseInt( mEditText_number2.getText().toString());
 
-            }
-        });
 
     }
 
