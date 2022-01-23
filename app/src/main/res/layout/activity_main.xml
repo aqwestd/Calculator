@@ -8,19 +8,18 @@
     tools:context=".MainActivity">
 
 
-
     <TextView
         android:layout_width="194dp"
         android:layout_height="43dp"
         android:layout_marginStart="114dp"
-        android:layout_marginLeft="114dp"
         android:layout_marginTop="58dp"
         android:layout_marginEnd="103dp"
-        android:layout_marginRight="103dp"
         android:layout_marginBottom="502dp"
         android:scrollbarSize="30dp"
         android:text=" Calculator"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#F7090909"
+        android:textColorHint="#0B0B0B"
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -32,7 +31,6 @@
     <!-- Edit Text View to input 2nd value-->
 
     <!-- Text View to display result -->
-
 
 
     <EditText
@@ -48,6 +46,8 @@
         android:ems="10"
         android:hint="Number1(0)"
         android:inputType="number"
+        android:textColor="#F7090909"
+        android:textColorHint="#434040"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.51"
@@ -68,6 +68,8 @@
         android:ems="10"
         android:hint="number2(0)"
         android:inputType="number"
+        android:textColor="#F7090909"
+        android:textColorHint=" #434040"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.505"
@@ -98,6 +100,8 @@
         android:ems="10"
         android:hint="Result"
         android:inputType="number"
+        android:textColor="#F7090909"
+        android:textColorHint=" #434040"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

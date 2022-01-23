@@ -20,7 +20,7 @@ public class Activity2 extends AppCompatActivity {
         int number1= intent.getIntExtra("number1",0);
         int number2= intent.getIntExtra("number2",0);
         TextView textViewNumbers=findViewById(R.id.text_view_numbers);
-        textViewNumbers.setText("Numbers:  "+number1+" "+number2);
+        textViewNumbers.setText("Numbers:  "+number1+",   "+number2);
 
 
         Button buttonAdd=findViewById(R.id.add);
